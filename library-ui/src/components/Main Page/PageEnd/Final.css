@@ -1,0 +1,215 @@
+.final{
+    background: #EEEDFF;
+    
+    min-height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final h2{
+    position: absolute;
+    margin-top: -10vh;
+    
+    
+    padding: 2vh;
+    margin-left: -70vh;
+    font-family: "Noto-serif";
+    text-transform: uppercase;
+}
+.final p{
+    font-size: 20px;
+    margin-top: 6vh;
+    position: absolute;
+    margin-left: -70vh;
+    width: 60vh;
+    font-family: "Noto-serif";
+   
+}
+.survey{
+    position: absolute;
+    display: inline-block;
+    border-radius: 20px;
+    width: 20vh;
+    height: 5vh;
+    margin-top: -5vh;
+    margin-left: 60vh;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.survey span {
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: "Noto Serif";
+    background: linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    letter-spacing: 2px;
+    font-size: 17.5px;
+}
+.dono{
+    position: absolute;
+    display: inline-block;
+    border-radius: 20px;
+    width: 20vh;
+    height: 5vh;
+    margin-top: -5vh;
+    margin-left: 110vh;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dono span {
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: "Noto Serif";
+    background: linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    letter-spacing: 2px;
+    font-size: 17.5px;
+}
+.feedback{
+    position: absolute;
+    display: inline-block;
+    border-radius: 20px;
+    width: 20vh;
+    height: 5vh;
+    margin-top: 8vh;
+    margin-left: 60vh;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.feedback span {
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: "Noto Serif";
+    background: linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    letter-spacing: 2px;
+    font-size: 17.5px;
+}
+.Lost{
+    position: absolute;
+    display: inline-block;
+    border-radius: 20px;
+    width: 20vh;
+    height: 5vh;
+    margin-top: 8vh;
+    margin-left: 110vh;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Lost span {
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: "Noto Serif";
+    background: linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    letter-spacing: 2px;
+    font-size: 17.5px;
+}
+@media (max-width: 1580px){
+    .final h2{
+        margin-left: -78vh;
+        font-size: 20px;
+        margin-top: -11vh;
+    }
+    .final p{
+        font-size: 15px;
+        width: 80vh;
+        margin-left: -56vh;
+    }
+    .final{
+        min-height: 20vh;
+    }
+    .dono span{
+        font-size: 13px;
+    }
+    .dono{
+        margin-left: 130vh;
+    }
+    .Lost span{
+        font-size: 15px;
+    }
+    .Lost{
+        margin-left: 130vh;
+    }
+    .survey span{
+        font-size: 15px;
+    }
+    .survey{
+        margin-left: 85vh;
+    }
+    .feedback span{
+        font-size: 15px;
+    }
+    .feedback{
+        margin-left: 85vh;
+    }
+}
+@media(max-width:500px){
+    .final p{
+        display: none;
+    }
+    .final h2{
+        width: 35vh;
+        margin-left: -50vh;
+        font-size: 15px;
+        margin-top: 3vh;
+        display: none;
+    }
+    .survey{
+        margin-left: -20vh;
+        width: 15vh;
+    }
+    .dono{
+        
+        margin-left: 18vh;
+        width: 15vh;
+    }
+    .feedback{
+        margin-left: -20vh;
+        width: 15vh;
+    }
+    .Lost{
+        margin-left: 18vh;
+        width: 15vh;
+    }
+}

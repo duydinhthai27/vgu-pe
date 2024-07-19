@@ -1,0 +1,472 @@
+.background{
+    
+    position: absolute ;
+    z-index: -1;
+}
+
+.container{
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle {
+    margin-top: 11vh;
+    width: 400vh;
+
+    border-radius: 8px;
+    background: rgba(255,255,255,0.85);
+    background-blend-mode: normal;
+    box-shadow: -10px -10px 9px rgba(0,0,0,0.5),
+                10px 10px 9px rgba(0,0,0,0.5);
+    height: 75vh; 
+    align-items: center;   
+    justify-content: center;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputs1{
+    gap: 20px;
+    margin-top: 29vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120.92px;
+  
+}
+.input{
+    display: absolute;
+    margin: auto;
+    width: 358.62px;
+    height: 120.92px;
+    background: #c5c5c5;
+    border-radius: 6px;
+}
+.input img{
+    margin: 13px 15px;
+}
+.input input{
+    background: none;
+    border: none ;
+    outline: none;
+}
+.login_icon{
+    height: 19px;
+    width: 17px; 
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LibName1{
+    margin-top: 140px;
+    position: absolute  ;
+    display: flex;
+    width: 887px;
+    height: 140px;
+}
+.logins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.forgot-password{
+    margin-top: 91vh;
+    margin-left: 20vh;
+    position: absolute;
+    height: 22.31px;
+    color: #1e1e1e;
+    font-family: "Noto Serif";
+    font-size: 16px;
+    font-weight: 500;
+}
+.SignUp1{
+    position: absolute;
+    margin-top: 133vh;
+    margin-right: 20vh;
+    height: 22.31px;
+    color: #1e1e1e;
+    font-family: "Noto Serif";
+    font-size: 16px;
+    font-weight: 500;
+}
+.RememberMe{
+    position: absolute;
+    margin-top: 91vh;
+    margin-right: 22.5vh;
+    height: 22.31px;
+    color: #1e1e1e;
+    font-family: "Noto Serif";
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.button1 {
+    margin-top: 120vh;
+    position: absolute;
+    display: inline-block;
+    width: 260px;
+    height: 50px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+.button1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+  
+.button1 span:nth-child(2) {
+    color: #fff;
+    background: linear-gradient(90deg,#9e333c 0% ,#cc8f28 100%);
+    overflow: hidden;
+    z-index: 2;
+    transition: 0.5s;
+    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 60% 100%, 40% 53%);
+  }
+  
+.button1 span:nth-child(2):hover {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 0 50%);
+  }
+.button1 span:nth-child(1):hover ~ span:nth-child(2) {
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 100% 50%);
+  }
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .moon1 {
+    position: absolute;
+    margin-left: 75vh;
+    margin-bottom: 5vh;
+    width: 264px;
+    height: 321px;
+    transform: rotate(-33deg);
+    filter: drop-shadow(2px 1px 2px black) hue-rotate(73deg) saturate(0.8) contrast(1.15);
+}
+.moon2 {
+    position: absolute;
+    margin-right: 75vh;
+    margin-bottom: 5vh;
+    width: 284px;
+    height: 354px;
+    filter: drop-shadow(2px 1px 2px black) hue-rotate(73deg) saturate(0.8) contrast(1.15);
+    
+}
+@media (max-width: 1199px) {
+    .LibName1{
+        scale: 70%;
+    }
+    .moon1{
+        scale:60%
+    }
+    .moon2{
+        scale:60%
+    }
+}
+@media (max-height: 865px) {
+    .RememberMe{
+        margin-top: 96vh;
+    }
+    .checkbox {
+        margin-top: 96vh;
+        margin-right: 34vh;
+    }
+    .forgot-password{
+        margin-top: 96vh;
+    }
+
+}
+@media (max-width: 991px) {
+    .LibName1{
+        scale: 60%;
+    }
+    .moon1{
+        scale:50%;
+        margin-left: 60vh;
+    }
+    .moon2{
+        scale:50%;
+        margin-right: 60vh;
+    }
+    .header1{
+        scale: 80%;
+    }
+    .welcometo {
+        margin-top: 54vh;
+    }
+    
+    .logoM{
+        margin-top: 54vh;
+    }
+    .button1{
+        scale: 80%;
+    }
+}
+@media (max-height: 801px) {
+    .LibName1{
+        scale: 70%;
+    }
+    .moon1{
+        scale:70%;
+        margin-left: 80;
+        
+    }
+    .moon2{
+        scale:70%;
+        margin-right: 80vh;
+       
+    }
+    .header1{
+        scale: 90%;
+    }
+    .welcometo {
+        margin-top: 54vh;
+    }
+    .logoM{
+        margin-top: 54vh;
+    }
+    .button1{
+        scale: 80%;
+    }
+    .SignUp1{
+        margin-top: 112vh;
+    }
+}
+
+@media (max-height: 753px) {
+    .input{
+        scale: 80%;
+        height: 100.92px;
+    }
+    .inputs1{
+        gap: 10px;
+    }
+    .button1{
+        margin-top: 112vh;
+    }
+    .forgot-password{
+        margin-top: 101vh;
+    }
+    .RememberMe{
+        margin-top: 101vh;
+        margin-right: 20.5vh;
+    }
+    .checkbox{
+        margin-top: 101vh;
+    }
+    .SignUp1{
+        margin-top: 125vh;
+        margin-right: 15.5vh;
+    }
+}
+@media (max-height: 634px) {
+    .input{
+        scale: 80%;
+        height: 100.92px;
+    }
+    .inputs1{
+        gap: 10px;
+        margin-top: 26vh;
+    }
+    .button1{
+        margin-top: 116vh;
+    }
+    .forgot-password{
+        margin-top: 95vh;
+        font-size: 13px;
+    }
+    .RememberMe{
+        margin-top: 95vh;
+        margin-right: 20.5vh;
+        font-size: 13px;
+    }
+    .checkbox{
+        margin-top: 95vh;
+    }
+    .SignUp1{
+        margin-top: 135vh;
+        margin-right: 15.5vh;
+        font-size: 13px;
+    }
+    .header1{
+        scale: 70%;
+    }
+    .welcometo {
+        margin-top: 64vh;
+        padding-right: 12vh;
+    }
+    
+    .logoM{
+        margin-top: 64vh;
+    }
+    .LibName1{
+        scale: 50%;
+        margin-top: 15vh;
+    }
+    .moon1{
+        scale:60%;
+        margin-left: 100vh;
+    }
+    .moon2{
+        scale:60%;
+        margin-right: 100vh;
+    }
+}
+@media (max-height: 584px) {
+    .input{
+        scale: 80%;
+        height: 100.92px;
+    }
+    .inputs1{
+        gap: 10px;
+        margin-top: 26vh;
+    }
+    .button1{
+        margin-top: 116vh;
+    }
+    .forgot-password{
+        margin-top: 98vh;
+        font-size: 13px;
+    }
+    .RememberMe{
+        margin-top: 98vh;
+        margin-right: 20.5vh;
+        font-size: 13px;
+    }
+    .checkbox{
+        margin-top: 98vh;
+    }
+    .SignUp1{
+        margin-top: 135vh;
+        margin-right: 15.5vh;
+        font-size: 13px;
+    }
+    .header1{
+        scale: 70%;
+    }
+    .welcometo {
+        margin-top: 64vh;
+        padding-right: 12vh;
+    }
+    
+    .logoM{
+        margin-top: 64vh;
+    }
+    .LibName1{
+        scale: 50%;
+        margin-top: 15vh;
+    }
+    .moon1{
+        scale:60%;
+        margin-left: 100vh;
+    }
+    .moon2{
+        scale:60%;
+        margin-right: 100vh;
+    }
+}
+@media (max-width: 991px) {
+    .LibName1{
+        scale: 55%;
+    }
+    .moon1{
+        scale:50%;
+        margin-left: 60vh;
+    }
+    .moon2{
+        scale:50%;
+        margin-right: 60vh;
+    }
+    .header1{
+        scale: 80%;
+    }
+    .welcometo {
+        margin-top: 54vh;
+        padding-right: 12vh;
+    }
+    
+    .logoM{
+        margin-top: 54vh;
+    }
+    .button1{
+        scale: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .LibName1{
+        scale: 50%;
+    }
+    .moon1{
+        scale:40%;
+        margin-left: 40vh;
+        margin-top: 45vh;
+    }
+    .moon2{
+        scale:40%;
+        margin-right: 59vh;
+        margin-top: 45vh;
+    }
+    .SignUp1{
+        margin-top: 160vh;
+        margin-right: 15.5vh;
+        font-size: 13px;
+    }
+    .header1{
+        scale: 80%;
+    }
+    .welcometo {
+        margin-top: 54vh;
+    }
+    .logoM{
+        margin-top: 54vh;
+    }
+    .button11{
+        scale: 80%;
+    }
+    .SignUp1{
+        margin-top: 112vh;
+    }
+}
+@media (max-width: 1280px){
+    .inputs1{
+        
+        height: 20.92px;
+      
+    }
+    .LibName1{
+        opacity: 0;
+    }
+    .SignUp1{
+        margin-top: 143vh;
+    }
+    .button1 {
+        margin-top: 125vh;
+        position: absolute;
+        display: inline-block;
+        width: 260px;
+        height: 50px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+      }
+}

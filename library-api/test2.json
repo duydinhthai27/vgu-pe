@@ -1,0 +1,32 @@
+[
+    {
+        "ID_Room": 101,
+        "Location": "First floor",
+        "Availability": "Available"
+    },
+    {
+        "ID_Room": 201,
+        "Location": "Second floor",
+        "Availability": "Available"
+    },
+    {
+        "ID_Room": 202,
+        "Location": "Second floor",
+        "Availability": "Available"
+    },
+    {
+        "ID_Room": 203,
+        "Location": "Second floor",
+        "Availability": "Available"
+    },
+    {
+        "ID_Room": 301,
+        "Location": "Third floor",
+        "Availability": "Available"
+    },
+    {
+        "ID_Room": 302,
+        "Location": "Third floor",
+        "Availability": "Available"
+    }
+]

@@ -1,0 +1,111 @@
+.contact{
+    background: black;
+    
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact h2{
+    position: absolute;
+  
+    margin-top: -13vh;
+    color: white;
+    font-size: 25px;
+    padding: 2vh;
+    margin-left: -70vh;
+    font-family: "Noto-serif";
+    text-transform: uppercase;
+}
+.contact p{
+    color: white;
+    font-size: 19px;
+    margin-top: -3vh;
+    position: absolute;
+    margin-left: -70vh;
+    width: 60vh;
+    font-family: "Noto-serif";
+}.contact h4{
+    color: white;
+    font-size: 19px;
+    margin-top: 5vh;
+    position: absolute;
+    margin-left: -70vh;
+    width: 60vh;
+    font-family: "Noto-serif";
+}.contact h5{
+    color: white;
+    font-size: 19px;
+    margin-top: 16vh;
+    position: absolute;
+    margin-left: -70vh;
+    width: 60vh;
+    font-family: "Noto-serif";
+}
+.contact h3{
+    color: white;
+    font-size: 19px;
+    margin-top: 12vh;
+    position: absolute;
+    margin-left: 110vh;
+    width: 60vh;
+    font-size: 25px;
+    font-family: "Noto-serif";
+}
+.contact img{
+    position: absolute;
+    margin-top: -5vh;
+    margin-left: 105vh;
+    width: 30%;
+}
+@media (max-width: 1580px){
+    .contact h2{
+        font-size: 18px;
+    }
+    .contact p{
+        font-size: 13px;
+        margin-left: -76vh;
+        margin-top: -1vh;
+    }
+    .contact h4{
+        font-size: 13px;
+        margin-left: -76vh;
+        margin-top: 7vh;
+    }
+    .contact h5{
+        font-size: 13px;
+        margin-left: -76vh;
+        margin-top: 17vh;
+    }
+    .contact h3{
+        font-size: 13px;
+    }
+}
+@media (max-width: 500px){
+    .contact h2{
+        font-size: 12px;
+        margin-left: -5vh;
+        
+    }
+    .contact p{
+        font-size: 11px;
+        margin-left: 20vh;
+        margin-top: -2vh;
+    }
+    .contact h4{
+        font-size: 11px;
+        margin-left: 20vh;
+        margin-top: 7vh;
+    }
+    .contact h5{
+        font-size: 11px;
+        margin-left: 20vh;
+        margin-top: 17vh;
+    }
+    .contact h3{
+        display: none;
+    }
+    .contact img{
+        display: none;
+    }
+}

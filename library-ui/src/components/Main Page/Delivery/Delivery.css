@@ -1,0 +1,229 @@
+.Delivery{
+    margin-top: 10vh;
+    width: 100%;
+    min-height: 125vh;
+    background: #13487c;
+    
+}
+.deliver img{
+    position: absolute;
+    padding-top: 7vh;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 135vh;
+    
+}
+.books1 img{
+    position: absolute;
+    padding-top: 15vh;
+    width: 18%;
+    border-radius: 10px;
+    margin-left: 40vh;
+}
+.Delivery h2{
+    background: -webkit-linear-gradient(left, #ffb739 0%, #df4451 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 40vh;
+    font-family: "Noto Serif";
+    font-size: 70px;
+    
+}
+.MoreServices h2{
+    background: -webkit-linear-gradient(left, #ffb739 0%, #df4451 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 84vh;
+    font-family: "Noto Serif";
+    font-size: 60px;
+}
+.Delivery p{
+    position: absolute;
+    padding-left: 1vh;
+    margin-top: 13vh;
+    margin-left: 23vh;
+    font-family: "Noto Serif";
+    font-size: 23px;
+    width: 75vh;
+    height: 10vh;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover span{
+    position: absolute;
+    margin-top: 55vh;
+    margin-left: 48vh;
+    font-family: "Noto Serif";
+    font-size: 20px;
+    width: 22vh;
+    height: 5vh;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(90deg, #cf9531 0%, #bd3843 100%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-left: 50vh;
+    margin-top: 85vh;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 2px 20px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 3px;
+    width: 29vh;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+}
+.box2{
+    margin-left: 125vh;
+    margin-top: 85vh;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 2px 20px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 3px;
+    width: 29vh;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+}
+.box-inner{
+    width: 25vh;
+    height: 30vh;
+    background: linear-gradient(0deg, #ffffff 0%, #bebebe 110%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#text h4{
+    margin-top: -1vh;
+    font-size: 1rem;
+    text-align: center;
+    color:black;
+}
+.Databases{
+    
+    padding: 5px;
+}
+.Databases span{
+    color: black;
+}
+.text-center{
+    box-sizing: border-box;
+}
+@media (max-width: 1580px){
+    .Delivery h2{
+        font-size: 50px;
+    }
+    .Delivery p{
+        font-size:15px;
+        margin-left: 26vh;
+    }
+    .discover span{
+        font-size: 13px;
+        margin-top: 60vh;
+    }
+    .Delivery{
+        min-height: 140vh;
+    }
+    .box{
+        height: 45vh;
+        width:35vh;
+    }
+    .box2{
+        height: 45vh;
+        width:35vh;
+    }
+    .box-inner{
+        margin-top: -2vh;
+        width: 28vh;
+    }
+    .Databases span{
+        font-size: 12px;
+    }
+    .MoreServices h2{
+        font-size: 45px;
+    }
+    #text h4{
+        font-size: 13px;
+    }
+}
+@media (max-width: 500px){
+    .Delivery h2{
+        margin-left: 14vh;
+        font-size: 24px;
+    }
+    .Delivery p{
+        width: 44vh;
+        margin-left: 0vh;
+        font-size: 11px;
+    }
+    .books1 img{
+        position: absolute;
+        padding-top: 17vh;
+        width: 70%;
+        border-radius: 10px;
+        margin-left: 5vh;
+    }
+    .discover span{
+       
+        margin-top: 65vh;
+        margin-left: 11.5vh;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .deliver img{
+        
+        display: none;
+    }
+
+
+    .MoreServices h2{
+        background: -webkit-linear-gradient(left, #ffb739 0%, #df4451 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        margin-top: 75vh;
+        margin-left: 15vh;
+        font-family: "Noto Serif";
+        font-size: 20px;
+    }
+    .box{
+        margin-left: 7vh;
+        height: 43vh;
+        width:30vh;
+    }
+    .box2{
+        margin-left: 48vh;
+        height: 47vh;
+        width:30vh;
+        display: none;
+    }
+    .box-inner{
+        margin-top: -2vh;
+        width: 28vh;
+    }
+    .Databases span{
+        font-size: 12px;
+    }
+   
+}

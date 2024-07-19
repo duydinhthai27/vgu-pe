@@ -1,0 +1,179 @@
+.book-title h1{
+    top: 19vh;
+    font-size: 7vh;
+    position: absolute;
+    font-family: "Noto Serif";
+    font-weight: bold;
+}
+.book-author a{
+    top: 37vh;
+    font-size: 3vh;
+    position: absolute;
+    font-family: "Noto Serif";
+    color: grey;
+}
+.vertical-line {
+    margin-left: 98vh;
+    margin-top: -43vh;
+    height: 3vh; 
+    width: 0.2vh;
+    background-color: #000;
+}
+.rating p{
+    top: 37vh;
+    left: 101vh;
+    font-size: 3vh;
+    position: absolute;
+    font-family: "Noto Serif";
+    color: grey;
+}
+.rating img{
+    width: 3vh;
+    margin-left: 105.5vh;
+    margin-top: -8.5vh;
+}
+.book-details p{
+    margin: 1vh;
+    font-family: "Noto Serif";
+    display: flex;
+    justify-content: space-between;
+}
+.book-details{
+    padding-right: 10vh;
+    
+}
+.detail-title {
+    font-family: "Noto Serif";
+    font-weight: bold;
+    color: #000;
+    padding-left: 80vh;
+}
+
+.detail-content {
+    font-family: "Noto Serif";
+    flex-basis: 70%;
+    text-align: justify;
+    color: grey;
+}
+
+.more-info{
+    
+    margin-top: 43vh;
+}
+.horizontal-line {
+    margin-top: 7vh;
+    margin-left: 97vh;
+    width: 110vh;
+    height: 1px;
+    background-color: #000;
+}
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    margin-left: 150vh;
+    margin-top: 3vh;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+.rent span{
+    position: absolute;
+    margin-top: 8vh;
+    margin-left: 80vh;
+    font-family: "Noto Serif";
+    font-size: 20px;
+    width: 23vh;
+    height: 6vh;
+    border-radius: 5px;
+    color: rgb(255, 235, 235);
+    background: linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-to-cart span{
+    position: absolute;
+    margin-top: 16vh;
+    margin-left: -45vh;
+    font-family: "Noto Serif";
+    font-size: 16px;
+    width: 22vh;
+    height: 5vh;
+    border-radius: 5px;
+    color: rgb(255, 235, 235);
+    background: linear-gradient(90deg, #cf9531 0%, #bd3843 100%);
+    
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.return-date{
+    position: absolute;
+    left: 40vh;
+}
+.Rentbutton{
+    
+    top: 6vh;
+    left: 80vh;
+    height: 7vh;
+    width: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Rentbutton p{
+    margin-top: 2vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Noto Serif";
+    font-size: 4vh;
+}
+.confirmbutton{
+    position: absolute;
+    width: 17vh;
+   
+}
+.card{
+    position: absolute;
+    width: 16vh;
+    left: 17vh;
+    top: 1vh;
+}
+@media (max-width: 1580px){
+    .book-title h1{
+        
+        left: 90vh;
+        font-size: 6.5vh;
+       
+    }
+    .book-author a{
+        top: 37vh;
+        left: 90vh;
+       
+    }
+    .book-title{
+        margin-left: 10vh;
+    }
+    .rating p{
+        
+        left: 111vh;
+        
+    }
+    .vertical-line {
+       
+        margin-top: -47.5vh;
+        
+    }
+    .rating img{
+        width: 3vh;
+        margin-left: 104.5vh;
+        margin-top: -8vh;
+    }
+}

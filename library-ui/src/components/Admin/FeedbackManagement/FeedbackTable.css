@@ -1,0 +1,22 @@
+ /* GoogleSheetTable.css */
+.google-sheet-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .google-sheet-table th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .google-sheet-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .google-sheet-table tr:hover {
+    background-color: #f5f5f5;
+  }

@@ -1,0 +1,114 @@
+
+nav{
+    width: 100%;
+    background: linear-gradient(25deg, white 35%, black 52%);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    font-family: "Noto Serif";
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 20px;
+    margin-bottom: -5px;
+    font-size: 19px;
+    list-style: none;
+}
+.logo{
+    width: 23%;
+}
+.xdd{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.btn1{
+    background: white;
+    color:black ;
+    padding:8px 25px;
+    font-size: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+.username{
+    font-size: 3vh;
+    margin-left: 7vh;
+}
+.function{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust this as needed */
+    align-items: flex-start;
+     /* Adjust vertical alignment as needed */
+}
+.function Button{
+    width: 28vh;
+   
+}
+.menuicon{
+    filter: brightness(0) invert(1);
+    position: absolute;
+    top: 6px;
+    display: none;
+    left: 340px;
+    width: 5%;
+}
+@media (max-width: 1580px){
+    nav ul li {
+        font-size: 15px;
+    }
+    
+    .btn1{
+        background: white;
+        color:black ;
+        padding:8px 25px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+    }
+}
+@media (max-width: 500px){
+    .nav{
+        
+    }
+    nav ul{
+        
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0px;
+        background: linear-gradient(70deg, #13487c 0%, #8137c0 90%);
+        z-index: 0;
+        width: 68vh;
+        padding-top: 70px;
+        transition: 0.5s;
+        
+    }
+    .logo{
+        margin-left: -5vh;
+        width: 30vh;
+    }
+    nav ul li{
+        
+        display: block;
+        margin: 25px 10px;
+    }
+    .menuicon{
+        
+        display: block;
+        cursor: pointer;
+    }
+    .hide-mobile-menu{
+        right: -68vh;
+    }
+}

@@ -1,0 +1,163 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -10vh;
+    display: flex;
+  
+    .swiper{
+      
+      .swiper-wrapper{
+        height: 70vh;
+    
+        .swiper-slide {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 150px;
+            height: 240px;
+            border-radius: 4px;
+          }
+        
+          &.swiper-slide-active{
+            transform: scale(1.15);
+            z-index: 2;
+          }
+        }
+    }
+    .swiper-button-prev {
+      width: 50px;
+      height: 50px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      rotate: 180deg;
+      background-image: url('../../Assets/next_icon.png');
+      filter: drop-shadow(2px 1px 2px black) hue-rotate(70deg) saturate(0.0) contrast(1);
+  }
+  
+    /* Set the custom image for the next button */
+    .swiper-button-next {
+        width: 50px;
+        height: 50px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../../Assets/next_icon.png');
+        filter: drop-shadow(2px 1px 2px black) hue-rotate(70deg) saturate(0.0) contrast(1);
+    }
+    .swiper-button-next:after,
+              .swiper-button-prev:after {
+                content: "";
+    }
+    }
+  }
+  .title a{
+    font-family: "Noto Serif-Bold";
+    text-align: left;
+    position: absolute;
+    margin-top: 19vh;
+    width: 23vh;
+    margin-left: -21vh;
+    font-size: 14px;
+    color: black;
+  }
+  .author a{
+    font-family: "Noto Serif-Bold";
+    text-align: left;
+    position: absolute;
+    margin-top: 24vh;
+    width: 25vh;
+    margin-left: -21vh;
+    color: gray;
+    font-size: 14px;
+  }
+  .top-10 h1{
+    font-family: "Noto Serif";
+    position: absolute;
+    font-size: 50px;
+    margin-top: -40vh;
+    margin-left: 20vh;
+    background: -webkit-linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-shadow: -3px 3px 40px rgba(0, 0, 0, 0.75)
+  }
+  .view a{
+    font-family: "Noto Serif";
+    position: absolute;
+    font-size: 25px;
+    margin-top: -39vh;
+    margin-left: 165vh;
+    background: -webkit-linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: -5px 5px 20px rgba(0, 0, 0, 0.75)
+  }
+  @media (max-width: 1580px){
+    .top-10 h1{
+      margin-top: -50vh;
+    }
+    .view a{
+      margin-top:-49vh;
+    }
+    .title a{
+      font-family: "Noto Serif-Bold";
+      text-align: left;
+      position: absolute;
+      margin-top: 21vh;
+      width: 30vh;
+      margin-left: -26vh;
+      font-size: 13px;
+      color: black;
+    }
+    .author a{
+      font-family: "Noto Serif-Bold";
+      text-align: left;
+      position: absolute;
+      margin-top: 58vh;
+      width: 30vh;
+      margin-left: -27vh;
+      color: gray;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 500px){
+    .top-10 h1{
+      font-family: "Noto Serif";
+      position: absolute;
+      font-size: 25px;
+      margin-top: -60vh;
+      margin-left: 2vh;
+      background: -webkit-linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      text-shadow: -3px 3px 40px rgba(0, 0, 0, 0.75)
+    }
+    .view a{
+      display: none;
+    }
+    .author a{
+      font-family: "Noto Serif-Bold";
+      text-align: left;
+      position: absolute;
+      margin-top: 40vh;
+      width: 25vh;
+      margin-left: -18vh;
+      color: gray;
+      font-size: 14px;
+    }
+    .title a{
+      font-family: "Noto Serif-Bold";
+      text-align: left;
+      position: absolute;
+      margin-top: 14vh;
+      width: 23vh;
+      margin-left: -18vh;
+      font-size: 14px;
+      color: black;
+    }
+    .swiper{
+      margin-top: -30vh;
+    }
+  }

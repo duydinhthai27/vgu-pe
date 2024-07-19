@@ -1,0 +1,194 @@
+/* control.css */
+
+.control-container {
+  position: absolute;
+  margin-top: 30vh;
+  top: 0px;
+  left: 0px;
+  height: 60vh;
+  
+  width: 400px;
+  text-align: center;
+  background-color: #000000;
+}
+
+/* control.title */
+
+.ControlTitle {
+  /* Add your desired properties for the ControlTitle div */
+  padding: 10px;
+  background-color: #000000;
+  border-bottom: 1px solid #ffffff;
+ 
+}
+
+.ControlTitle h1 {
+  /* Add your desired properties for the h1 tagz` */
+  color: #edeeff;
+  font-size: 24px;
+}
+
+.search-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+/* Styles for format div */
+.format {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.format .back-icon {
+  margin-top: 170px; /* Adjust as needed */
+  margin-right: 330px; /* Adjust as needed */
+}
+
+.format-select {
+  flex-grow: 1;
+}
+
+.format-select select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  font-size: 16px;
+}
+
+.format-select select:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+/* Styles for genres div */
+.genres {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.genres .back-icon {
+  margin-top: 235px; /* Adjust as needed */
+  margin-right: 330px; /* Adjust as needed */
+}
+
+.genres-select {
+  flex-grow: 1;
+}
+
+.genres-select select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  font-size: 16px;
+}
+
+.genres-select select:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+
+/* control.author */
+/* Styles for author div */
+.author {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.author .back-icon {
+  margin-top: 285px; /* Adjust as needed */
+  margin-right: 330px; /* Adjust as needed */
+}
+
+.author-select {
+  flex-grow: 1;
+}
+
+.author-select select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  font-size: 16px;
+}
+
+.author-select select:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+/* control.rest */
+
+.bill2{
+position: relative;
+top: -170px;
+left: 0px;
+width: 500px;
+height: auto;
+background-color: none;
+z-index: 1;
+}
+
+.back-icon {
+position: absolute;
+top: -70px;
+right: 20px;
+width: 40px;
+height: 40px;
+}
+@media (max-width: 1580px){
+  .control-container {
+    margin-top: 50vh;
+    height: 50vh;
+    width: 45vh;
+  }
+  .format-select select {
+    width: 60%;
+    
+  }
+  .format-select{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust this as needed */
+    align-items: flex-end;
+  }
+  .genres-select select {
+    width: 67%;
+    
+  }
+  .genres-select {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust this as needed */
+    align-items: flex-end;
+  }
+  
+  .author-select select {
+    width: 90%;
+    
+  }
+  .author-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust this as needed */
+    align-items: flex-end;
+  }
+}
+@media (max-width: 500px){
+  .control-container{
+    display: none;
+  }
+}

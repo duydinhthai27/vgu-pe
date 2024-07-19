@@ -1,0 +1,11 @@
+.text-trending h1{
+  
+  font-family: "Noto Serif";
+  text-align: center;
+  background: -webkit-linear-gradient(90deg, #13487c 0%, #8137c0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  margin-top: 5vh;
+  text-shadow: -10px 10px 40px rgba(0, 0, 0, 0.75)
+}

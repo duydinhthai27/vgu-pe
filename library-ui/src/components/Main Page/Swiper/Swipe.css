@@ -1,0 +1,8 @@
+img{
+    width: 100%;
+}
+@media(max-width:500px){
+    .heroswipe{
+        margin-top: 20vh;
+    }
+}

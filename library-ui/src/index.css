@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font: "Noto Serif";
+}
+body{
+    background: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+    list-style-type: none;
+}
